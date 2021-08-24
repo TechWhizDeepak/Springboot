@@ -16,4 +16,9 @@ public class HelloController {
 		return "Hi...";
 	}
 
+	@RequestMapping("/JMD")
+	public String JMD() {
+		return "Jai Mata Di";
+	}
+
 }
