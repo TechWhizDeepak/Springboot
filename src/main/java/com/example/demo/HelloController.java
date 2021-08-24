@@ -16,6 +16,11 @@ public class HelloController {
 		return "Hi...";
 	}
 
+	@RequestMapping("/dc")
+	public String dc() {
+		return "Hello, Deepak Chugh!!";
+	}
+
 	@RequestMapping("/JMD")
 	public String JMD() {
 		return "Jai Mata Di";
