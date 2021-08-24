@@ -18,7 +18,7 @@ public class HelloController {
 
 	@RequestMapping("/dpk")
 	public String dpk() {
-		return "Hello, Deepak Chugh!!";
+		return "Hello Deepak Chugh";
 	}
 
 	@RequestMapping("/JMD")
