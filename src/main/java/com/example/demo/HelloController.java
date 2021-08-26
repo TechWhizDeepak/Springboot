@@ -16,14 +16,10 @@ public class HelloController {
 		return "Hi...";
 	}
 
-	@RequestMapping("/DPK")
-	public String DPK() {
-		return "Hello Deepak Chugh";
+	@RequestMapping("/MSD")
+	public String MSD() {
+		return "Hi Mr Manoj";
 	}
 
-	@RequestMapping("/JMD")
-	public String JMD() {
-		return "Jai Mata Di";
-	}
 
 }
